@@ -1,0 +1,37 @@
+#wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#wrapper #content-wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav .form-inline .input-group {
+        width: auto;
+    }
+}
+
+.form-title{
+    background-color: #03A9F4;
+}
+
+
+.copyright {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+}
+
+.card {
+    width: 100%;
+}
+.list-group-item{
+    font-size: 7pt;
+}
